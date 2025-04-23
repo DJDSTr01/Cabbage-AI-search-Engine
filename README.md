@@ -1,4 +1,6 @@
-![Cabbage Logo](github/assets/Cabbage.png)
+<p align="center">
+ <img src="github/assets/Cabbage.png" alt="Cabbage Logo">
+</p>
 
 # Cabbage: An Open-Source AI Search Engine
 
@@ -22,7 +24,7 @@ This guide explains how to set up and use the Cabbage library and scripts.
 1.  **Get the Code:**
     *   **Option A: Clone the repository (Recommended if you have Git):**
         ```bash
-        git clone https://github.com/DJDSTr01/Cabbage-AI-search-Enginer # TODO: Replace with actual URL
+        git clone https://github.com/DJDSTr01/Cabbage-AI-search-Engine.git
         cd Cabbage-AI-search-Engine # Or your repository directory name
         ```
     *   **Option B: Download:**
