@@ -78,7 +78,7 @@ This guide explains how to set up and use the Cabbage library and scripts.
 2.  **Configuration File (`cabbage/config.json`):**
     You can fine-tune Cabbage's behavior by editing the `cabbage/config.json` file:
     ```json
-    // cabbage/config.json
+    
     {
       "search_results_count": 5,
       "summary_sentences_count": 50,
@@ -103,7 +103,7 @@ This is the most flexible way to use Cabbage in your own Python projects.
 
 *   **Ensure Importability:** Make sure Python can find the `cabbage` folder. You can either:
     *   Place the `cabbage` folder directly inside your project directory.
-    *   Add the directory *containing* the `cabbage` folder to your system's `PYTHONPATH` environment variable.
+    *   Add the directory *containing* the `cabbage` folder to your projects directory
 *   **Import and Use:** Import the `process_query` function from the `cabbage` package.
 
 ```python
