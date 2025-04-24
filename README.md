@@ -9,8 +9,8 @@ Cabbage is an open-source Python project designed to function as an AI-powered s
 ## Features
 
 *   **Open-Source:** Freely available for use and modification.
-*   **AI-Powered Summarization:** Uses Sumy (LSA) for initial summaries and can optionally leverage Mistral AI models (via API) for more refined, human-like summaries.
-*   **Free Enhanced Summarization:** Optionally uses Mistral AI for refined summaries. Importantly, Mistral offers a generous free tier, meaning you can use this enhanced feature at **no cost** (API key required, but the service itself can be free).
+*   **AI-Powered Summarization:** Uses Sumy (LSA) for initial summaries and can optionally leverage Mistral AI models via API (**Free**) for more refined, human-like summaries.
+*   **Free Enhanced Summarization:** Optionally uses Mistral AI API for refined summaries. Importantly, Mistral offers a generous free tier, meaning you can use this enhanced feature at **no cost** (API key required, but the service itself is completely free).
 *   **Web Search:** Utilizes DuckDuckGo for retrieving search results.
 *   **Content Scraping:** Employs Selenium and `webdriver-manager` for robust web scraping.
 *   **Content Extraction:** Uses Trafilatura to isolate the main textual content from web pages.
