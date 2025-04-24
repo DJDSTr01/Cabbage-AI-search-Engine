@@ -10,6 +10,7 @@ Cabbage is an open-source Python project designed to function as an AI-powered s
 
 *   **Open-Source:** Freely available for use and modification.
 *   **AI-Powered Summarization:** Uses Sumy (LSA) for initial summaries and can optionally leverage Mistral AI models (via API) for more refined, human-like summaries.
+*   **Free Enhanced Summarization:** Optionally uses Mistral AI for refined summaries. Importantly, Mistral offers a generous free tier, meaning you can use this enhanced feature at **no cost** (API key required, but the service itself can be free).
 *   **Web Search:** Utilizes DuckDuckGo for retrieving search results.
 *   **Content Scraping:** Employs Selenium and `webdriver-manager` for robust web scraping.
 *   **Content Extraction:** Uses Trafilatura to isolate the main textual content from web pages.
@@ -25,7 +26,7 @@ This guide explains how to set up and use the Cabbage library and scripts.
     *   **Option A: Clone the repository (Recommended if you have Git):**
         ```bash
         git clone https://github.com/DJDSTr01/Cabbage-AI-search-Engine.git
-        cd Cabbage-AI-search-Engine # Or your repository directory name
+        cd Cabbage-AI-search-Engine 
         ```
     *   **Option B: Download:**
         Download and extract the source code ZIP file to a location on your computer.
@@ -72,7 +73,7 @@ This guide explains how to set up and use the Cabbage library and scripts.
         ```
     *   **Edit `.env`:** Open the `.env` file and replace the placeholder values (like `your_mistral_api_key_here`) with your actual API keys.
     *   **Usage:**
-        *   The `MISTRAL_API_KEY` is used by the core Cabbage library for optional enhanced summarization. If left blank, this step is skipped.
+        *   The `MISTRAL_API_KEY` is used by the core Cabbage library for optional enhanced summarization. While an API key is needed, Mistral provides a free tier sufficient for typical usage of this feature, making it free to use. If left blank, this enhanced summarization step is skipped.
         *   Other keys (`OPENAI_API_KEY`, `ANTHROPIC_API_KEY`) are needed only if you run the corresponding LLM tool examples in the `examples/` directory.
 
 2.  **Configuration File (`cabbage/config.json`):**
